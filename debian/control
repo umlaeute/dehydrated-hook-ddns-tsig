@@ -15,7 +15,7 @@ Depends:
  dehydrated,
  python-dnspython,
 Description: dnspython hook for dehydrated
- This is a python hook for the dehydrated.sh project, a Let's Encrypt/ACME
+ This is a Python hook for the dehydrated.sh project, a Let's Encrypt/ACME
  client implemented as a shell script. This hook uses the dnspython API to
  perform dynamic DNS updates and queries to verify. The DNS challenge is
  outlined in the ACME protocol. To successfully complete this challenge, the
