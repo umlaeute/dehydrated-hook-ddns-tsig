@@ -13,6 +13,7 @@ Architecture: any
 Depends:
  ${shlibs:Depends}, ${misc:Depends},
  dehydrated,
+ python,
  python-dnspython,
 Description: dnspython hook for dehydrated
  This is a Python hook for the dehydrated.sh project, a Let's Encrypt/ACME
