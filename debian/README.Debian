@@ -1,0 +1,12 @@
+dnspython-hook for Debian
+------------------------
+
+To enable this hook, edit /etc/dehydrated/conf.d/50_dnspython-hook.sh
+and uncomment the 'HOOK' setting.
+
+To configure this hook, edit /etc/dehydrated/dnspython-hook.conf.
+
+You *MUST* set at least your target `name_server_ip`,
+and provide a `key_name` and `key_secret`.
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Tue, 13 Dec 2016 16:06:07 +0100

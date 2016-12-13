@@ -1,0 +1,5 @@
+dehydrated-dnspython-hook (0.0~20161213-1) iem; urgency=medium
+
+  * Initial release
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Tue, 13 Dec 2016 16:06:07 +0100

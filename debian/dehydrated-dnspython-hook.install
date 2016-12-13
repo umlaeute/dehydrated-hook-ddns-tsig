@@ -1,0 +1,3 @@
+dnspython-hook.py	/usr/share/dehydrated-dnspython-hook/
+dnspython-hook.conf	/etc/dehydrated/
+debian/05-dnspython-hook.sh	/etc/dehydrated/conf.d/
