@@ -1,3 +1,9 @@
+dehydrated-dnspython-hook (0.0~20161214.0-1) iem; urgency=medium
+
+  * Python2 compat
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Wed, 14 Dec 2016 14:04:11 +0100
+
 dehydrated-dnspython-hook (0.0~20161213.1-1) iem; urgency=medium
 
   * Initial release
