@@ -1,3 +1,12 @@
+dehydrated-dnspython-hook (0.0~20161215.0-1) iem; urgency=medium
+
+  * New upstream
+
+  * script to pseudo-import upstream into pristine-tar
+  * Fixed permissions of config-file (should not be readable world-wide)
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Thu, 15 Dec 2016 14:00:44 +0100
+
 dehydrated-dnspython-hook (0.0~20161214.0-1) iem; urgency=medium
 
   * Python2 compat
