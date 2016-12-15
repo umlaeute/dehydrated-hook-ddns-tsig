@@ -2,3 +2,7 @@
 
 %:
 	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	find $(CURDIR)/debian/*/ -name dnspython-hook.conf -exec chmod o-rwx {} +
