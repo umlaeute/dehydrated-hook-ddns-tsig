@@ -1,8 +1,8 @@
-dehydrated-dnspython-hook (0.0~20161215.0-1) iem; urgency=medium
+dehydrated-dnspython-hook (0.0~20161215.2-1) iem; urgency=medium
 
   * New upstream
 
-  * script to pseudo-import upstream into pristine-tar
+  * script to import upstream pseudo-releases into pristine-tar
   * Fixed permissions of config-file (should not be readable world-wide)
 
  -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Thu, 15 Dec 2016 14:00:44 +0100
