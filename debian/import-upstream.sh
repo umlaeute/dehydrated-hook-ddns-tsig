@@ -6,15 +6,19 @@ if [ "x${UPSTREAM}" = "x" ]; then
   exit 1
 fi
 
-=20161215.0
+version2tag() {
+  echo upstream/$1 | sed -e 's|~|_|g'
+}
+
 date=$(date +%Y%m%d)
 i=0
-while git tag -l "upstream/0.0_${date}.${i}" | grep . >/dev/null
+VERSION="0.0~${date}.${i}"
+while git tag -l "$(version2tag ${VERSION})" | grep . >/dev/null
 do
  i=$((i+1))
+ VERSION="0.0~${date}.${i}"
 done
 
-VERSION="0.0_${date}.${i}"
 TARBALL="../dehydrated-dnspython-hook_${VERSION}.tar.gz"
 
 git archive -v \
@@ -23,6 +27,6 @@ git archive -v \
 	--prefix=dehydrated-dnspython-hook_${VERSION}/ \
 	"${UPSTREAM}" \
 && pristine-tar commit "${TARBALL}" \
-&& git tag -m "imported upstream-pseudoversion ${VERSION}" "upstream/${VERSION}" "${UPSTREAM}"  \
+&& git tag -m "imported upstream-pseudoversion ${VERSION}" "$(version2tag ${VERSION})" "${UPSTREAM}"  \
 && git merge "${UPSTREAM}" \
 ${nop}
