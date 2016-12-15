@@ -24,5 +24,5 @@ git archive -v \
 	"${UPSTREAM}" \
 && pristine-tar commit "${TARBALL}" \
 && git tag -m "imported upstream-pseudoversion ${VERSION}" "upstream/${VERSION}" "${UPSTREAM}"  \
+&& git merge "${UPSTREAM}" \
 ${nop}
-&& git merge "${UPSTREAM}"
