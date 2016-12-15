@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/umlaeute/dnspython-hook
 Vcs-Browser: https://github.com/umlaeute/dnspython-hook
 
 Package: dehydrated-dnspython-hook
-Architecture: any
+Architecture: all
 Depends:
  ${misc:Depends},
  dehydrated,
