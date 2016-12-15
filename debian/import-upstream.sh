@@ -19,7 +19,7 @@ do
  VERSION="0.0~${date}.${i}"
 done
 
-TARBALL="../dehydrated-dnspython-hook_${VERSION}.tar.gz"
+TARBALL="../dehydrated-dnspython-hook_${VERSION}.orig.tar.gz"
 
 git archive -v \
 	--format tar.gz \
