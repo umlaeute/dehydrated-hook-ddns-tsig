@@ -26,7 +26,7 @@ git archive -v \
 	-o "${TARBALL}" \
 	--prefix=dehydrated-dnspython-hook_${VERSION}/ \
 	"${UPSTREAM}" \
-&& pristine-tar commit "${TARBALL}" \
+&& pristine-tar commit "${TARBALL}" "${UPSTREAM}" \
 && git tag -m "imported upstream-pseudoversion ${VERSION}" "$(version2tag ${VERSION})" "${UPSTREAM}"  \
 && git merge "${UPSTREAM}" \
 ${nop}
