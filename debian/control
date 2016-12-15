@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/umlaeute/dnspython-hook
 Package: dehydrated-dnspython-hook
 Architecture: any
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
+ ${misc:Depends},
  dehydrated,
  python,
  python-dnspython,
