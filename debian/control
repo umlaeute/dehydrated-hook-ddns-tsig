@@ -12,6 +12,7 @@ Package: dehydrated-dnspython-hook
 Architecture: all
 Depends:
  ${misc:Depends},
+ moreutils,
  dehydrated,
  python,
  python-dnspython,
