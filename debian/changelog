@@ -1,3 +1,10 @@
+dehydrated-dnspython-hook (0.0~20161215.2-2) iem; urgency=medium
+
+  * cron-snippet that uses 'chronic' (from moreutils)
+    * Depend on moreutils
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Mon, 19 Dec 2016 09:39:05 +0100
+
 dehydrated-dnspython-hook (0.0~20161215.2-1) iem; urgency=medium
 
   * New upstream
