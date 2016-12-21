@@ -1,3 +1,15 @@
+dehydrated-dnspython-hook (0.0~20161221.0-1) iem; urgency=medium
+
+  [ upstream ]
+  * helpers to verify that a given record is present on authoritative nameservers
+  * verify records on all authoritative nameservers
+
+  [ IOhannes m zmölnig]
+  * removed trailing empty line
+  * check if /etc/dehydrated/domains.txt exists before running cronjob
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Wed, 21 Dec 2016 15:16:36 +0100
+
 dehydrated-dnspython-hook (0.0~20161215.2-2) iem; urgency=medium
 
   * cron-snippet that uses 'chronic' (from moreutils)
