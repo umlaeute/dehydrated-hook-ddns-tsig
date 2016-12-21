@@ -8,5 +8,4 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-0 */12 * * * root perl -e 'sleep int(rand(3600))' && chronic /usr/bin/dehydrated -c
-
+0 */12 * * * root test ! -e /etc/dehydrated/domains.txt || (perl -e 'sleep int(rand(3600))' && chronic /usr/bin/dehydrated -c)
