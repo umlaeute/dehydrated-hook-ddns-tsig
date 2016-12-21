@@ -1,3 +1,10 @@
+dehydrated-dnspython-hook (0.0~20161221.1-1) iem; urgency=medium
+
+  [ upstream ]
+  * special handling of NoAnswer exception during verification
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Wed, 21 Dec 2016 15:34:51 +0100
+
 dehydrated-dnspython-hook (0.0~20161221.0-1) iem; urgency=medium
 
   [ upstream ]
